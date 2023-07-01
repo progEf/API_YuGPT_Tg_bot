@@ -13,7 +13,7 @@ from parsing.API_PARS import request_parsing
 from parsing.parsing_RBK import pars_rbc
 
 storage = MemoryStorage()
-TOKEN = '6076334962:AAE6VRjoVKGtVNaClC2d6vbm3YHoi51Mqdk'
+TOKEN = 'TOKEN'
 bot = Bot(token=TOKEN)
 dp: Dispatcher = Dispatcher(bot, storage=storage)
 
