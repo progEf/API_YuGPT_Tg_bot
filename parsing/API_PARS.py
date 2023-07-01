@@ -17,7 +17,7 @@ def request_parsing(st):
         endpoint,
         json={
             'article_url': st
-        }, headers={'Authorization': 'OAuth y0_AgAAAABfE_mwAAoX4wAAAADmh-TsrwqldS4UR0q5quwqrNM2-KTuRTk'})
+        }, headers={'Authorization': 'OAuth TOKEN'})
     print(response.json())
     URL = response.json()['sharing_url']
     ua = UserAgent().random
